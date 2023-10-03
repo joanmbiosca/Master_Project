@@ -6,15 +6,15 @@ This repository contains a Python code which is used to study the deformation in
 </p>
 
 <p align="center">
-  <em style="text-align: center;">This previous image corresponds to a 2D phase field representation. <br>
-    In <font color="blue">blue</font> the intracellular phase. In <span style="color:red;">red</span> the extracellular phase.</em>
+  <em style="text-align: center;">This image corresponds to a 2D phase field representation. <br>
+    In <font color="blue">blue,</font> the intracellular phase. In <span style="color:red;">red,</span> the extracellular phase.</em>
 </p>
 
 **Content**
 
 - Jupyter Notebook file to show some plots in [Plots](Plots_Matplotlib).
 - Python code (3d_RBC.py) where the equations are solved and the solution of the phase field (cell) is the final outcome.
-- Python code (plot_save3d.py) to generate the paraview files to visualize the evolution of the cell 
+- Python code (plot_save3d.py) to generate the Paraview files to visualize the evolution of the cell 
 
 
 **Brief Explanation**
@@ -33,7 +33,7 @@ $$
 \nabla^2  \vec{\psi}= -\vec{\omega},
 $$
 
-The numerical integration consists in solving two Poisson equations and applying the results to compute a simple Euler method for temporal evolution. The bending free energy of the membrane is expressed in terms of the phase field and the Navier-Stokes equation is coupled with the cell membrane.
+The numerical integration consists of solving two Poisson equations and applying the results to compute a simple Euler method for temporal evolution. The bending free energy of the membrane is expressed in terms of the phase field, and the Navier-Stokes equation is coupled with the cell membrane.
 
 **Results**
 
@@ -53,7 +53,7 @@ Different outcomes for the analysis can be displayed in Paraview:
 
 </p>
 
-3. Different cell shapes for different rigidities ordered from less rigid to more rigid:
+3. Different cell shapes for different rigidities are ordered from less rigid to more rigid:
 <p align="center">
 
 <img src="Images/def.svg" alt="drawing" width="60%"/>
